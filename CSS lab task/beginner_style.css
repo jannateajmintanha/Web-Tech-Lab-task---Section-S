@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+/* CSS Position + z-index */
+.header {
+    background-color: #333333;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* Max Width + Box Model */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+/* CSS Display + Box Model + Position */
+.product-card {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid #dddddd;
+    background-color: #fafafa;
+    vertical-align: top;
+    position: relative;
+}
+
+/* CSS Position + z-index */
+.badge {
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+    font-size:larger;
+}
+
+
